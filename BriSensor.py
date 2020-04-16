@@ -2,7 +2,7 @@ import time
 import smbus
 import RPi.GPIO as GPIO
 
-bus = smbus.SMBus(3)                                            # i2c bus number (NOTE Default value: 1)
+bus = smbus.SMBus(1)                                            # i2c bus number (NOTE Default value: 1)
 
 while True:
     # Create a list of brightness values (then calculate the average)
